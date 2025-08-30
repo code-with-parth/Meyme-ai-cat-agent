@@ -2,7 +2,7 @@
 
 # 🐾 Meyme – Your AI Cat Companion  
 
-<img src="assets/banner.png" alt="Meyme Banner" width="700">  
+<img src="assets/file_000000001bf461fa86b7bcea510adcb6.png" alt="Meyme Banner" width="700">  
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)  
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-success?logo=fastapi)  
@@ -70,26 +70,21 @@ _Built as part of the **30 Days of AI Voice Agents Challenge by Murf AI (complet
 
 ## 📂 Project Structure
 
-meyme-ai-cat-agent/
-├── backend/
-│   ├── controllers/
-│   │   ├── websocket_controller.py       # Voice streaming
-│   │   └── agent_controller.py           # Main agent logic
-│   ├── services/
-│   │   ├── stt_service.py                # Speech-to-Text
-│   │   ├── tts_service.py                # Text-to-Speech
-│   │   └── llm_service.py                # AI Model
-│   ├── tools/
-│   │   ├── weather_tool.py               # Weather info
-│   │   └── web_search_tool.py            # Web search
-│   ├── templates/
-│   │   └── index.html                    # Frontend UI
-│   ├── static/
-│   │   ├── css/
-│   │   └── js/
-│   ├── main.py                           # FastAPI app
-│   └── requirements.txt
-└── README.md
+Meyme/
+│── assets/               # Images, logos, banners
+│── src/                  # Source code
+│   ├── api/              # API endpoints (backend logic)
+│   ├── components/       # Reusable UI components
+│   ├── hooks/            # Custom React hooks
+│   ├── pages/            # Application pages (Next.js/React Router)
+│   ├── services/         # External API or AI integrations
+│   ├── styles/           # CSS / Tailwind / styling files
+│   └── utils/            # Helper functions & constants
+│── tests/                # Unit & integration tests
+│── .gitignore            # Ignored files & folders
+│── package.json          # Dependencies & project metadata
+│── README.md             # Documentation
+│── LICENSE               # License file (MIT)
 
 ## 🎮 Usage
 
